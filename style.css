@@ -1,0 +1,103 @@
+@media only screen and (max-device-width: 480px){}
+
+body{
+  background-color: #999999;
+  font-family: 'open-sans';
+}
+
+/*style tabs*/
+#tabs{
+width: 800px;
+height: 100px;
+position: absolute;
+left: 262px;
+top: 79px;
+}
+
+.tabs-deface{
+  height: 50px;
+  width: 130px;
+  margin: .2px;
+  font-size: 18px;
+  border-radius: 0px;
+}
+
+#tab1{
+background-color: #ff9966;
+border-radius: 0px;
+}
+#tab2{
+background-color: #ff9999; 
+border-radius: 0px;  
+}
+#tab3{
+background-color: #99ff99;
+border-radius: 0px;
+}
+#tab4{
+background-color: #e8e8e8; 
+border-radius: 100px;
+height: 45px;
+width: 45px;
+margin-left: 5px;
+padding: 0 0 0 13px;
+font-size: 30px;
+font-weight: 800;
+}
+
+
+/*style nav*/
+#left-nav{
+  background-color: #cccccc;
+  height: 730px;
+  width: 260px;
+  float: left;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+#user-info{
+  height: 9%;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+#menu-avatar{
+  float: left;
+  margin: 0 auto;
+  border: 1px solid blue;
+  margin: 12px;
+}
+
+#menu-username{
+  float: left;
+}
+
+#menu{
+  height: 100%;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.block{
+  background-color: #cccccc;
+  height: 600px;
+  width: 300px;
+  float: left;
+  margin: 4px;
+  margin-top: 130px;
+}
+
+
+/*style cards*/
+.custom-card{
+  height: 80px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.thumbnail{
+  height: 190px;
+  border: 1px solid black;
+}
