@@ -11,7 +11,7 @@ width: 800px;
 height: 100px;
 position: absolute;
 left: 262px;
-top: 79px;
+top: 78px;
 }
 
 .tabs-deface{
@@ -20,6 +20,11 @@ top: 79px;
   margin: .2px;
   font-size: 18px;
   border-radius: 0px;
+
+}
+
+#nav-tabs-deface{
+  border: 1px solid #fff;
 }
 
 #tab1{
@@ -83,7 +88,7 @@ font-weight: 800;
 .block{
   background-color: #cccccc;
   height: 600px;
-  width: 300px;
+  width: 250px;
   float: left;
   margin: 4px;
   margin-top: 130px;
@@ -99,5 +104,4 @@ font-weight: 800;
 
 .thumbnail{
   height: 190px;
-  border: 1px solid black;
 }
