@@ -1,8 +1,12 @@
 @media only screen and (max-device-width: 480px){}
 
 body{
-  background-color: #999999;
+
   font-family: 'open-sans';
+}
+
+#canvas{
+ background-color: #999999;
 }
 
 /*style tabs*/
@@ -11,26 +15,49 @@ width: 800px;
 height: 100px;
 position: absolute;
 left: 262px;
-top: 78px;
+top: 87px;
 }
 
 .tabs-deface{
-  height: 50px;
-  width: 130px;
-  margin: .2px;
+  height: 40px;
+  width: 110px;
+  margin: .5px;
   font-size: 18px;
   border-radius: 0px;
-  color: #363433;
-  font-weight: bold;
+  color: #373737;
+  
 }
 
+#org-deface{
+  width: 150px;
+  height: 60px;
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 20 15 15 15;
+ }
+
+
+
+
+
 #nav-tabs-deface{
-  border: 1px solid #fff;
+  border: 1px solid #999;
 }
+
+#tab1 a{
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 18px;
+  
+} 
 
 #tab1{
 background-color: #ff9966;
 border-radius: 0px;
+height: 60px;
+bottom: 21px;
+width: 200px;
+margin-left: 5px;
 }
 #tab2{
 background-color: #ff9999; 
@@ -40,16 +67,20 @@ border-radius: 0px;
 background-color: #99ff99;
 border-radius: 0px;
 }
-#tab4{
+#tabPlus{
 background-color: #e8e8e8; 
 border-radius: 100px;
 height: 45px;
 width: 45px;
 margin-left: 5px;
 padding: 0 0 0 13px;
-font-size: 30px;
+font-size: 35px;
 font-weight: 800;
+bottom: 10px;
+position: relative;
 }
+
+
 
 
 /*style nav*/
