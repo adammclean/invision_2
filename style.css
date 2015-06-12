@@ -55,7 +55,7 @@ font-weight: 800;
 /*style nav*/
 #left-nav{
   background-color: #cccccc;
-  height: 730px;
+  height: 830px;
   width: 260px;
   float: left;
   margin: 0 5px 0 0;
@@ -88,7 +88,7 @@ font-weight: 800;
 
 .block{
   background-color: #cccccc;
-  height: 600px;
+  height: 700px;
   width: 250px;
   float: left;
   margin: 4px;
