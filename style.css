@@ -37,9 +37,6 @@ top: 87px;
  }
 
 
-
-
-
 #nav-tabs-deface{
   border: 1px solid #999;
 }
@@ -79,7 +76,6 @@ font-weight: 800;
 bottom: 10px;
 position: relative;
 }
-
 
 
 
@@ -142,4 +138,15 @@ position: relative;
 #thumbnail1{
   margin-top: 5px;
 }
+
+
+
+/*style color wrappers*/
+.color-wrapper{
+position: absolute;
+height: 750px;
+width: 1450px;
+border: 1px solid #fff;
+}
+
 
