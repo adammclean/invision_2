@@ -20,9 +20,8 @@ top: 78px;
   margin: .2px;
   font-size: 18px;
   border-radius: 0px;
-  color: black;
+  color: #363433;
   font-weight: bold;
-
 }
 
 #nav-tabs-deface{
@@ -106,4 +105,10 @@ font-weight: 800;
 
 .thumbnail{
   height: 190px;
+  margin-top: 120px;
 }
+
+#thumbnail1{
+  margin-top: 5px;
+}
+
