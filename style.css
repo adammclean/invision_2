@@ -12,12 +12,11 @@ body{
 
 #orange-wrapper{
   position: absolute;
-  height: 700px;
+  height: 715px;
   width: 800px;
   background-color: #ff9966;
-  top: 130px;
-
- 
+  top: 120px; 
+  margin-left: 200px;
 }
 
 /*style tabs*/
@@ -26,7 +25,7 @@ width: 800px;
 height: 100px;
 position: absolute;
 left: 262px;
-top: 88px;
+top: 78px;
 }
 
 .tabs-deface{
@@ -65,8 +64,13 @@ border-radius: 0px;
 height: 60px;
 bottom: 18px;
 width: 200px;
-margin-left: 5px;
+margin-left: -2px;
 }
+
+#tab1 a{
+  font-size: 20px;
+}
+
 #tab2{
 background-color: #ff9999; 
 border-radius: 0px;  
