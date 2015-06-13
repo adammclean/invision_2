@@ -7,6 +7,17 @@ body{
 
 #canvas{
  background-color: #999999;
+ position: relative;
+}
+
+#orange-wrapper{
+  position: absolute;
+  height: 700px;
+  width: 800px;
+  background-color: #ff9966;
+  top: 130px;
+
+ 
 }
 
 /*style tabs*/
@@ -15,7 +26,7 @@ width: 800px;
 height: 100px;
 position: absolute;
 left: 262px;
-top: 87px;
+top: 88px;
 }
 
 .tabs-deface{
@@ -38,7 +49,7 @@ top: 87px;
 
 
 #nav-tabs-deface{
-  border: 1px solid #999;
+  border: none;
 }
 
 #tab1 a{
@@ -52,7 +63,7 @@ top: 87px;
 background-color: #ff9966;
 border-radius: 0px;
 height: 60px;
-bottom: 21px;
+bottom: 18px;
 width: 200px;
 margin-left: 5px;
 }
