@@ -28,6 +28,12 @@ left: 262px;
 top: 78px;
 }
 
+#tab{
+  position: absolute;
+  left: 11px;
+  bottom: 2px;
+}
+
 .tabs-deface{
   height: 40px;
   width: 110px;
