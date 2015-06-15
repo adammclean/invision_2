@@ -34,8 +34,7 @@ top: 78px;
   margin: .5px;
   font-size: 18px;
   border-radius: 0px;
-  color: #373737;
-  
+  color: #373737; 
 }
 
 #org-deface{
@@ -54,8 +53,7 @@ top: 78px;
 #tab1 a{
   margin: 0 auto;
   font-weight: bold;
-  font-size: 18px;
-  
+  font-size: 18px;  
 } 
 
 #tab1{
@@ -75,10 +73,12 @@ margin-left: -2px;
 background-color: #ff9999; 
 border-radius: 0px;  
 }
+
 #tab3{
 background-color: #99ff99;
 border-radius: 0px;
 }
+
 #tabPlus{
 background-color: #e8e8e8; 
 border-radius: 100px;
@@ -155,7 +155,6 @@ position: relative;
 }
 
 
-
 /*style color wrappers*/
 .color-wrapper{
 position: absolute;
@@ -164,4 +163,63 @@ width: 1450px;
 border: 1px solid #fff;
 }
 
+/* style modal */
+#modal-footer-deface{
+  text-align: left;
+}
 
+#modal-header{
+  margin-left: 20px;
+}
+
+#modal-body{
+  margin-left: 20px;
+}
+
+.modal-footer{
+  background-color: #ccc;
+  border: 1px solid #919191;
+  border-top: 1px solid #919191;
+
+}
+
+#add_to_queue{
+  float:right;
+  background-color: #cccccc;
+  
+}
+
+#footer-headline{
+  width: 350px;
+  margin-left: 20px;
+}
+
+#myModalLabel{
+  font-weight: bold;
+}
+
+#text{
+  width: 550px;
+  margin-right: 25px;
+  line-height: 1.1;
+  font-size: 13px;
+}
+
+#from_tag{
+  margin-bottom: 10px;
+}
+
+
+/*style buttons*/
+#buttons{
+  width: 200px;
+  height: 80px;
+
+}
+
+.btn-deface{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding-right: 25px;
+}
